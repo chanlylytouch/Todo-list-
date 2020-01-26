@@ -9,17 +9,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: TodoList(
-        // appBar: AppBar(
-        //   title: Text("Todo list"),
-        //   centerTitle: true,
-        // ),
-        // body: TodoList(),
-        // floatingActionButton: FloatingActionButton(
-        //   child: Icon(Icons.add),
-        //   onPressed: (){
-
-        //   },
-        // ),
       ),
     );
   }
